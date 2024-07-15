@@ -9,6 +9,15 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <style>
+        @media (min-width: 992px){
+            .space{
+            padding-left: 2rem;
+
+        }
+        .space-right{
+            padding-right: 2rem;
+        }
+        }
         .border-bottom {
             border-bottom: var(--bs-border-width) var(--bs-border-style) #000000 !important;
         }
@@ -96,32 +105,64 @@
 </head>
 
 <body class="gradient-background">
+    
     <div class="container">
         <header class="d-flex justify-content-center py-3 text text-colour">
             <ul class="nav nav-pills display-flex">
                 <li class="nav-item"><a href="https://sofiautilitarian.github.io/MindMender-Services/" class="nav-link text-colour btn-primary">Services</a></li>
                 <li class="nav-item"><a href="https://sofiautilitarian.github.io/MindMender-Seek/" class="nav-link text-colour btn-primary">Seek</a></li>
                 <li class="nav-item"><a href="https://sofiautilitarian.github.io/MindMender-Support/" class="nav-link text-colour btn-primary">Support</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-colour btn-primary">Silhouette</a></li>
+                <li class="nav-item"><a href="https://sofiautilitarian.github.io/MindMender-Silhoutte/" class="nav-link text-colour btn-primary">Silhouette</a></li>
             </ul>
         </header>
     </div>
-    <div class="text position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light gradient-background">
-        <div class="col-md-5 p-lg-5 mx-auto my-5">
-            <img class=""
-                src="https://static.wixstatic.com/media/57dce1_2a491542540f4966b3300cd5675318ae~mv2.png/v1/fill/w_381,h_552,al_c,lg_1,q_85,enc_auto/57dce1_2a491542540f4966b3300cd5675318ae~mv2.png"
-                height="350" class="rounded mx-auto d-block" alt="...">
-            <br>
-            <br>
-            <br>
-            <h1 class="display-4 fw-normal text">MindMender</h1>
-            <p class="lead fw-normal">In Bangladesh, where access to affordable mental health services is limited,
-                MindMender aims to help individuals in need of mental health support.</p>
-            <a class="btn btn-outline-secondary text text-colour" href="#">Start your wellness journey</a>
-        </div>
-        <div class="product-device shadow-sm d-none d-md-block"></div>
-        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+
+    <div class="container col-md-5 p-lg-5 mx-auto my-5 display-flex">
+        <h1 class="display-4 fw-normal text">MindMender</h1>
     </div>
+
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img class="d-block mx-lg-auto img-fluid space" src="https://static.wixstatic.com/media/57dce1_757ad3a43bfc4227a5b800f55414b2bd~mv2.png/v1/fill/w_925,h_520,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/57dce1_757ad3a43bfc4227a5b800f55414b2bd~mv2.png"
+                alt="Bootstrap Themes" width="700" height="500" loading="lazy"
+                >
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text">Your Mental Health Matters</h1>
+                <p class="lead text">MindMender is a free platform where you can open up about your mental health. The listeners here incorporate clinical psychology to provide you solutions to your difficulties. </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start py-5">
+                    <a class="btn btn-outline-secondary text text-colour"
+                        href="https://sofiautilitarian.github.io/MindMender-Seek/">Start your wellness journey</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="https://static.wixstatic.com/media/57dce1_1600aa17c5934bad93ff5445e7ca6d6e~mv2.png/v1/fill/w_925,h_520,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/57dce1_1600aa17c5934bad93ff5445e7ca6d6e~mv2.png"
+                    class="d-block mx-lg-auto img-fluid space-right" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text">Donate and Support MindMender</h1>
+                <p class="lead text">In Bangladesh, where access to affordable mental health services is limited,
+                    MindMender aims to help individuals in need of mental health support. Support MindMender today by
+                    donating to help us provide accessible mental health services to those in need.
+                </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start py-5">
+
+                    <a class="btn btn-outline-secondary text text-colour"
+                        href="https://sofiautilitarian.github.io/MindMender-Support/">Donate to Support MindMender</a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
 
     <div class="container">
         <footer class="py-3 my-4">
