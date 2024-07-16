@@ -60,24 +60,17 @@
         }
 
         .gradient-background {
-            background: linear-gradient(300deg, #f0e67a, #ffe246, #fde56a, #f8b878);
-            background-size: 240% 240%;
-            animation: gradient-animation 4s ease infinite;
-        }
+            background: linear-gradient(90deg, #f0de7e, #f9c84f, #f5b16f, #fb9b6e, #f8794f, #e3f186);
+    background-size: 1200% 1200%;
 
-        @keyframes gradient-animation {
-            0% {
-                background-position: 0% 50%;
-            }
+    animation: AnimationName 0s ease infinite;
+}
 
-            50% {
-                background-position: 100% 50%;
-            }
-
-            100% {
-                background-position: 0% 50%;
-            }
-        }
+@keyframes AnimationName {
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
 
 
         .text {
